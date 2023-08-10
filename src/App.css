@@ -6,4 +6,9 @@
 }
 
 body {
+  background-image: url("images/fon1.webp");
+}
+
+.username {
+  text-align: center;
 }

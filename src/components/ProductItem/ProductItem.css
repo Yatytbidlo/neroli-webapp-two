@@ -1,0 +1,47 @@
+
+.product {
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 178px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.img img {
+    width: 30%;
+    margin: 0 0 0 130px;
+}
+
+.description {
+    font-size: 0.8em;
+    text-align: center;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+.secondimage:first-child {
+    display: none;
+}
+
+.add-btn {
+    width: 100%;
+}
+
+.buttonadd-btn {
+    margin-top: 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+.price {
+    color: whitesmoke;
+}
+
+.title {
+    color: whitesmoke;
+    margin-top: 20px;
+}

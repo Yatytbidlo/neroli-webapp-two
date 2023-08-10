@@ -1,9 +1,11 @@
 import './App.css';
 import {useEffect} from "react";
 import Header from "./components/Header/Header";
-const tg = window.Telegram.WebApp
-
+import {useTelegram} from "./hooks/useTelegram";
+import ProductList from "./components/ProductList/ProductList";
 function App() {
+
+    const {tg} = useTelegram()
 
     useEffect(() => {
         tg.ready();
@@ -11,7 +13,8 @@ function App() {
 
   return (
     <div className="App">
-     <Header/>
+        <Header />
+        <ProductList />
     </div>
   );
 }

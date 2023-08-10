@@ -6,7 +6,7 @@ const Header = () => {
     const {user} = useTelegram()
 
     return (
-        <div>
+        <div className={'header'}>
             <h3>Авторский парфюм от Neroli</h3>
             <span className={"username"}>Добро пожаловать {user?.username}!</span>
         </div>
